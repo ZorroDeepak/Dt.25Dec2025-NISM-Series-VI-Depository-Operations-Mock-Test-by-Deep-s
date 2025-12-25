@@ -383,334 +383,334 @@
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nThe two types of Government Securities are Dated Securities and Treasury Bills. Dated Securities have a maturity period of more than one year. Treasury Bills have a maturity period of up to one year.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 5: Functions of DP-Account operations",
+    "chapter": "Chapter 5: Functions of DP-Account operations",
+    "id": 28,
+    "question": "Q 28. When a Deamt A/c of a client is frozen for debits, can the client receive securities in this account.",
+    "options": [
+      "A) Yes ✓",
+      "B) No"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nWhen a demat account is frozen for debits, credits can still be received into the account unless it is specifically frozen for credits as well.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 7: Functions of DP- Dematerialisation",
+    "chapter": "Chapter 7: Functions of DP- Dematerialisation",
+    "id": 29,
+    "question": "Q 29. The ______________ is fully responsible for destruction, mutilation and cancellation of certificates received and accepted by it for dematerialization.",
+    "options": [
+      "A) Depository Participant (DP)",
+      "B) Depository",
+      "C) Issuer/R&T Agent ✓",
+      "D) Stock Broker"
+    ],
+    "answerIndex": 2,
+    "explanation": "Explanation:\nRights and Obligations of Issuers and their R&T Agents : The Issuer and its R&T Agent undertakes that no dematerialization requests shall be accepted when there are any prohibitory order, stop transfer, attachment order, or disputed title, on the day of such request.\nThe Issuer/R&T Agent agrees to be fully responsible for destruction, mutilation and cancellation of certificates received and accepted by it for dematerialization.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
+    "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
+    "id": 30,
+    "question": "Q 30. As per SEBI rules, companies should mandatorily use ECS facility for distribution of dividends to the investors except where ECS facililty is not available.",
+    "options": [
+      "A) False, its up to the investor to decide.",
+      "B) True ✓"
+    ],
+    "answerIndex": 1,
+    "explanation": "Explanation:\nSEBI has mandated use of ECS/NECS/NACH or any electronic mode for distribution of dividends and other cash benefits wherever such facilities are available.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 2: Introduction to Depository",
+    "chapter": "Chapter 2: Introduction to Depository",
+    "id": 31,
+    "question": "Q 31. The Depositories Act, 1996 provides for the establishment of depositories in securities with the objective of ensuring free transferability of securities with speed, accuracy and security. State True or False ?",
+    "options": [
+      "A) True ✓",
+      "B) False"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nThe Depositories Act, 1996 provides a legal basis for establishment of depositories in securities with the objective of ensuring free transferability of securities with speed, accuracy and security.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 9: Special Services- Pledge and Hypothecation",
+    "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
+    "id": 32,
+    "question": "Q 32. In NSDL, _________ pledge instructions can be executed on the basis of a single agreement.",
+    "options": [
+      "A) Only one",
+      "B) Only two",
+      "C) Upto 10",
+      "D) Multiple ✓"
+    ],
+    "answerIndex": 3,
+    "explanation": "Explanation:\nMultiple pledge instructions can be executed on the basis of a single agreement. In such cases, the same agreement number should be quoted for all the pledge instructions.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 12: Foreign Portfolio Investors(FPI)",
+    "chapter": "Chapter 12: Foreign Portfolio Investors(FPI)",
+    "id": 33,
+    "question": "Q 33. Which of the following is considered a Foreign Portfolio Investor?",
+    "options": [
+      "A) Sub-Accounts",
+      "B) Qualified Financial Institutions",
+      "C) Foreign Institutional Investors",
+      "D) All of the above ✓"
+    ],
+    "answerIndex": 3,
+    "explanation": "Explanation:\nAll existing FIIs, Sub Accounts & QFIs are deemed to be Foreign Portfolio Investors from June 1, 2014.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 4: Functions of DP-Account opening",
+    "chapter": "Chapter 4: Functions of DP-Account opening",
+    "id": 34,
+    "question": "Q 34. The Rights and Obligation Document is a standard document approved by",
+    "options": [
+      "A) AMFI",
+      "B) SEBI ✓",
+      "C) RBI",
+      "D) Depositories"
+    ],
+    "answerIndex": 1,
+    "explanation": "Explanation:\nThe investor while opening the demat account has to sign and submit an account opening form and acknowledgement of the receipt of the copy of the Rights and Obligation document to the DP. The form and contents of the Rights and Obligation document are specified by SEBI.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
+    "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
+    "id": 35,
+    "question": "Q 35. In an IPO, the issuer of shares will be required to enter into an agreement with all the _________, before coming out with a public issue.",
+    "options": [
+      "A) Stock Exchanges",
+      "B) Depositories ✓",
+      "C) Depository Participants",
+      "D) All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "Explanation:\nIssuer shall be required to enter into agreement with all the depositories.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 1: Introduction to the Indian Capital Market",
+    "chapter": "Chapter 1: Introduction to the Indian Capital Market",
+    "id": 36,
+    "question": "Q 36. Which amongst the following instruments is the odd one out ?",
+    "options": [
+      "A) Equity Linked Saving Scheme (ELSS) ✓",
+      "B) RBI Bonds",
+      "C) Treasury Bills",
+      "D) Commercial Paper"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nELSS is a Mutual Fund Equity product while the rest are Debt instruments.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 1: Introduction to the Indian Capital Market",
+    "chapter": "Chapter 1: Introduction to the Indian Capital Market",
+    "id": 37,
+    "question": "Q 37. _____________ was the evidence of change of ownership when there was no demat of securities and the securities were physically printed and traded.",
+    "options": [
+      "A) A letter exchanged between the buyer and seller",
+      "B) An endorsement on the physical security certificate ✓",
+      "C) An acknowledgement receipt",
+      "D) An acknowledgement receipt stamped by the Stock Exchange"
+    ],
+    "answerIndex": 1,
+    "explanation": "Explanation:\nIn case of paper printed securities, the system of transfer of ownership involved physical movement of paper securities to the issuer for registration, with the change of ownership being evidenced by an endorsement on the security certificate.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 1: Introduction to the Indian Capital Market",
+    "chapter": "Chapter 1: Introduction to the Indian Capital Market",
+    "id": 38,
+    "question": "Q 38. Investors do not wish certain securities credited to their demat accounts to be considered for the RGESS, then they will be required to submit declaration in a prescribed format within ______ month from the date of transaction?",
+    "options": [
+      "A) 6",
+      "B) 3",
+      "C) 2",
+      "D) 1 ✓"
+    ],
+    "answerIndex": 3,
+    "explanation": "Explanation:\nUnder RGESS, investors who do not wish certain securities to be considered for the scheme must submit a declaration to that effect within one month from the date of the transaction.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 2: Introduction to Depository",
+    "chapter": "Chapter 2: Introduction to Depository",
+    "id": 39,
+    "question": "Q 39. Investors wishing to open account with the depository have the following benefits/choices :\nCan select the DP based on the investors convenience, comfort, service levels, safety, reputation, charges etc.\nHave the flexibility to open more than one account with the same DP or any other DPs\nCan close an account anytime with one DP and open another one with any other DP.\nWhich of the above is true ?",
+    "options": [
+      "A) 1 and 2",
+      "B) 2 and 3",
+      "C) 1 and 3",
+      "D) 1 , 2 and 3 ✓"
+    ],
+    "answerIndex": 3,
+    "explanation": "Explanation:\nInvestors wishing to open account with the depository have the following benefits/choices:\nCan select the DP based on the investors convenience, comfort, service levels, safety, reputation, charges etc\nHave the flexibility to open more than one account with the same DP or any other DPs\nNo requirement of minimum balance\nCan close an account anytime with one DP and open another one with any other DP.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 9: Special Services- Pledge and Hypothecation",
+    "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
+    "id": 40,
+    "question": "Q 40. What care should be taken by Depository Participants while processing a pledge request ?",
+    "options": [
+      "A) Pledgor DP and Pledgee DP each shall create at least two users to implement the Makerchecker feature",
+      "B) Ensure that all compulsory fields in the instruction form are entered",
+      "C) Instruction form is submitted in duplicate",
+      "D) All of the above ✓"
+    ],
+    "answerIndex": 3,
+    "explanation": "Explanation:\nWhile processing a pledge/hypothecation request, the DP should take care that Pledgor DP and Pledgee DP each shall create at least two users to implement the Makerchecker feature and ensure that all compulsory fields in the instruction form are entered.\nIt should also ensure that the instruction form is submitted in duplicate.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 1: Introduction to the Indian Capital Market",
+    "chapter": "Chapter 1: Introduction to the Indian Capital Market",
+    "id": 41,
+    "question": "Q 41. _________ regulates the sale and purchase of derivatives contract on money market securities.",
+    "options": [
+      "A) RBI ✓",
+      "B) SEBI",
+      "C) NSE",
+      "D) NSDL / CDSL"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nThe powers in respect of the contracts for sale and purchase of securities, gold related securities, money market securities and securities derived from these securities and ready forward contracts in debt securities are exercised concurrently by RBI.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 8: Functions of DP- Trading and Settlement",
+    "chapter": "Chapter 8: Functions of DP- Trading and Settlement",
+    "id": 42,
+    "question": "Q 42. In case of an Off market trade, the debit is effected on the execution date.",
+    "options": [
+      "A) True ✓",
+      "B) False"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nAny trade that is cleared and settled without the participation of a clearing member or clearing corporation ie. without the involvement of a Stock Exchange, is called off-market trade.\nThe account holder is required to specify the date on which instruction should be executed by mentioning the execution date on the instruction. The debit will be effected on this execution date.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 2: Introduction to Depository",
+    "chapter": "Chapter 2: Introduction to Depository",
+    "id": 43,
+    "question": "Q 43. Before commencing operations, depositories should obtain a certificate of registration and a certificate of commencement of business from ______ .",
+    "options": [
+      "A) SEBI ✓",
+      "B) RBI",
+      "C) Stock Exchanges",
+      "D) Major stake holders of the depositories"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nBefore commencing operations, depositories in India are required to obtain:\nA Certificate of Registration, and\nA Certificate of Commencement of Business\nfrom the Securities and Exchange Board of India (SEBI).\nThis requirement is laid out under the Depositories Act, 1996 and SEBI regulations.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 11: Special Services- Debt Instruments & Government Securities",
+    "chapter": "Chapter 11: Special Services- Debt Instruments & Government Securities",
+    "id": 44,
+    "question": "Q 44. At the time of delivery of warehouse receipts, client initiates a remat request through the DP using the __________ .",
+    "options": [
+      "A) Physical Delivery Request Form (PDRF). ✓",
+      "B) Special Delivery Request Form (SDRF)",
+      "C) Demat Request Form – Warehouse Receipt (DRF-WR)",
+      "D) Either 1 or 2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nRemember its - Physical Delivery Request Form (PDRF)​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 7: Functions of DP- Dematerialisation",
+    "chapter": "Chapter 7: Functions of DP- Dematerialisation",
+    "id": 45,
+    "question": "Q 45. It is possible for investors to transpose names of the joint holders alongwith the process of dematerialisation through their DPs",
+    "options": [
+      "A) True ✓",
+      "B) False"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nTransposition means that if the shares are held in the name of A & B and customer has a demat account in the reverse order i.e. name of B & A - the shares can be dematerialised in the same account, and a new demat account in the name of B and A would not be required.\nThe depositories have amended their Bye-Laws and procedure to enable investors to transpose names of the joint holders along with the process of dematerialisation through their DPs. Prior to this amendment, investors having shares in joint names (Mr. A & Mr. B), but in different sequence (Mr. B & Mr. A) were either required to open multiple accounts for each sequence (Mr. A & Mr. B and Mr. B & Mr. A) or to effect the transposition directly with the Issuer/R&T Agent and then dematerialize their securities through their DPs.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 4: Functions of DP-Account opening",
+    "chapter": "Chapter 4: Functions of DP-Account opening",
+    "id": 46,
+    "question": "Q 46. Its compulsory for the trading members to upload the KYC details to the KRA agencies registered with SEBI after completing the client account opening procedures.",
+    "options": [
+      "A) True ✓",
+      "B) False"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nThe members, after completing the client account opening procedures, are required to upload the KYC details to the KRA agencies registered with SEBI.\nSEBI has simplified the account opening process for investors and made it uniform across intermediaries in the securities markets. Further, to avoid duplication of KYC process with every intermediary, KRA system was developed for centralization of the KYC records in the securities markets. The system was made applicable for new clients who opened accounts with the intermediaries from January1, 2012.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 6: Functions of DP- Transmission & Nomination",
+    "chapter": "Chapter 6: Functions of DP- Transmission & Nomination",
+    "id": 47,
+    "question": "Q 47. Where there is an objection from any member of the HUF, transmission of securities held in the beneficial owner account should be effected only on the basis of a Decree by a competent Court or the Deed of Partition.",
+    "options": [
+      "A) True ✓",
+      "B) False"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nWhere there is an objection from any member of the HUF, transmission of securities held in the beneficial owner account should be effected only on the basis of a Decree by a competent Court or the Deed of Partition.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 13: Investor Services",
+    "chapter": "Chapter 13: Investor Services",
+    "id": 48,
+    "question": "Q 48. In case of grievances , the investor is first expected to approach whom amongst the foll :",
+    "options": [
+      "A) The Concerned Intermediary ✓",
+      "B) SEBI",
+      "C) Stock Exchange",
+      "D) Finance Ministry"
+    ],
+    "answerIndex": 0,
+    "explanation": "Explanation:\nInvestors are the backbone of the securities market. Protection of the interests of these investors is of paramount importance.\nWhen the investors have grievances against the intermediary /broking firm through which it deals in the market or against the company for which it is a shareholder. In event of such a grievance, the investor is required to first approach the concerned intermediary/company for settling of the grievance. The investor may however not be satisfied with the response. In such a situation, the matter can be brought to the notice of the stock exchange.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 8: Functions of DP- Trading and Settlement",
+    "chapter": "Chapter 8: Functions of DP- Trading and Settlement",
+    "id": 49,
+    "question": "Q 49. Who is required to give the Inter-settlement Instructions to the Participants for securities lying within a same CM account but in different settlement a pocket?",
+    "options": [
+      "A) Depository",
+      "B) Clearing Member ✓",
+      "C) Exchange",
+      "D) Clearing House"
+    ],
+    "answerIndex": 1,
+    "explanation": "Explanation:\nClearing Members will be required to give Inter-settlement Instructions to the Participants for securities lying within a same CM account but in different settlement pocket.​"
+  },
+  {
+    "questionSet": "Questions-Set-3",
+    "module": "Chapter 9: Special Services- Pledge and Hypothecation",
+    "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
+    "id": 50,
+    "question": "Q 50. In NSDL, a pledgor (borrower) can substitute the securities offered in a pledge transaction, if the pledgee (lender) agrees to it.",
+    "options": [
+      "A) False",
+      "B) True ✓"
+    ],
+    "answerIndex": 1,
+    "explanation": "Explanation:\nThis can be explained by an example : Lets assume that the securities of XYZ company. were offered as collateral. Now the pledgor wants to offer securities of company PQR Ltd. instead of XYZ ltd., he may do so if the pledgee agrees to it.\nThe procedure for effecting this change involves the procedure of closure of earlier pledge and creation of a new pledge."
   }
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 5: Functions of DP-Account operations",
-  "chapter": "Chapter 5: Functions of DP-Account operations",
-  "id": 28,
-  "question": "Q 28. When a Deamt A/c of a client is frozen for debits, can the client receive securities in this account.",
-  "options": [
-    "A) Yes ✓",
-    "B) No"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nWhen a demat account is frozen for debits, credits can still be received into the account unless it is specifically frozen for credits as well.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 7: Functions of DP- Dematerialisation",
-  "chapter": "Chapter 7: Functions of DP- Dematerialisation",
-  "id": 29,
-  "question": "Q 29. The ______________ is fully responsible for destruction, mutilation and cancellation of certificates received and accepted by it for dematerialization.",
-  "options": [
-    "A) Depository Participant (DP)",
-    "B) Depository",
-    "C) Issuer/R&T Agent ✓",
-    "D) Stock Broker"
-  ],
-  "answerIndex": 2,
-  "explanation": "Explanation:\nRights and Obligations of Issuers and their R&T Agents : The Issuer and its R&T Agent undertakes that no dematerialization requests shall be accepted when there are any prohibitory order, stop transfer, attachment order, or disputed title, on the day of such request.\nThe Issuer/R&T Agent agrees to be fully responsible for destruction, mutilation and cancellation of certificates received and accepted by it for dematerialization.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
-  "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
-  "id": 30,
-  "question": "Q 30. As per SEBI rules, companies should mandatorily use ECS facility for distribution of dividends to the investors except where ECS facililty is not available.",
-  "options": [
-    "A) False, its up to the investor to decide.",
-    "B) True ✓"
-  ],
-  "answerIndex": 1,
-  "explanation": "Explanation:\nSEBI has mandated use of ECS/NECS/NACH or any electronic mode for distribution of dividends and other cash benefits wherever such facilities are available.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 2: Introduction to Depository",
-  "chapter": "Chapter 2: Introduction to Depository",
-  "id": 31,
-  "question": "Q 31. The Depositories Act, 1996 provides for the establishment of depositories in securities with the objective of ensuring free transferability of securities with speed, accuracy and security. State True or False ?",
-  "options": [
-    "A) True ✓",
-    "B) False"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nThe Depositories Act, 1996 provides a legal basis for establishment of depositories in securities with the objective of ensuring free transferability of securities with speed, accuracy and security.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 9: Special Services- Pledge and Hypothecation",
-  "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
-  "id": 32,
-  "question": "Q 32. In NSDL, _________ pledge instructions can be executed on the basis of a single agreement.",
-  "options": [
-    "A) Only one",
-    "B) Only two",
-    "C) Upto 10",
-    "D) Multiple ✓"
-  ],
-  "answerIndex": 3,
-  "explanation": "Explanation:\nExplanation:\nMultiple pledge instructions can be executed on the basis of a single agreement. In such cases, the same agreement number should be quoted for all the pledge instructions.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 12: Foreign Portfolio Investors(FPI)",
-  "chapter": "Chapter 12: Foreign Portfolio Investors(FPI)",
-  "id": 33,
-  "question": "Q 33. Which of the following is considered a Foreign Portfolio Investor?",
-  "options": [
-    "A) Sub-Accounts",
-    "B) Qualified Financial Institutions",
-    "C) Foreign Institutional Investors",
-    "D) All of the above ✓"
-  ],
-  "answerIndex": 3,
-  "explanation": "Explanation:\nAll existing FIIs, Sub Accounts & QFIs are deemed to be Foreign Portfolio Investors from June 1, 2014.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 4: Functions of DP-Account opening",
-  "chapter": "Chapter 4: Functions of DP-Account opening",
-  "id": 34,
-  "question": "Q 34. The Rights and Obligation Document is a standard document approved by",
-  "options": [
-    "A) AMFI",
-    "B) SEBI ✓",
-    "C) RBI",
-    "D) Depositories"
-  ],
-  "answerIndex": 1,
-  "explanation": "Explanation:\nThe investor while opening the demat account has to sign and submit an account opening form and acknowledgement of the receipt of the copy of the Rights and Obligation document to the DP. The form and contents of the Rights and Obligation document are specified by SEBI.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
-  "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
-  "id": 35,
-  "question": "Q 35. In an IPO, the issuer of shares will be required to enter into an agreement with all the _________, before coming out with a public issue.",
-  "options": [
-    "A) Stock Exchanges",
-    "B) Depositories ✓",
-    "C) Depository Participants",
-    "D) All of the above"
-  ],
-  "answerIndex": 1,
-  "explanation": "Explanation:\nIssuer shall be required to enter into agreement with all the depositories.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 1: Introduction to the Indian Capital Market",
-  "chapter": "Chapter 1: Introduction to the Indian Capital Market",
-  "id": 36,
-  "question": "Q 36. Which amongst the following instruments is the odd one out ?",
-  "options": [
-    "A) Equity Linked Saving Scheme (ELSS) ✓",
-    "B) RBI Bonds",
-    "C) Treasury Bills",
-    "D) Commercial Paper"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nELSS is a Mutual Fund Equity product while the rest are Debt instruments.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 1: Introduction to the Indian Capital Market",
-  "chapter": "Chapter 1: Introduction to the Indian Capital Market",
-  "id": 37,
-  "question": "Q 37. _____________ was the evidence of change of ownership when there was no demat of securities and the securities were physically printed and traded.",
-  "options": [
-    "A) A letter exchanged between the buyer and seller",
-    "B) An endorsement on the physical security certificate ✓",
-    "C) An acknowledgement receipt",
-    "D) An acknowledgement receipt stamped by the Stock Exchange"
-  ],
-  "answerIndex": 1,
-  "explanation": "Explanation:\nIn case of paper printed securities, the system of transfer of ownership involved physical movement of paper securities to the issuer for registration, with the change of ownership being evidenced by an endorsement on the security certificate.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 1: Introduction to the Indian Capital Market",
-  "chapter": "Chapter 1: Introduction to the Indian Capital Market",
-  "id": 38,
-  "question": "Q 38. Investors do not wish certain securities credited to their demat accounts to be considered for the RGESS, then they will be required to submit declaration in a prescribed format within ______ month from the date of transaction?",
-  "options": [
-    "A) 6",
-    "B) 3",
-    "C) 2",
-    "D) 1 ✓"
-  ],
-  "answerIndex": 3,
-  "explanation": "Explanation:\nUnder RGESS, investors who do not wish certain securities to be considered for the scheme must submit a declaration to that effect within one month from the date of the transaction.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 2: Introduction to Depository",
-  "chapter": "Chapter 2: Introduction to Depository",
-  "id": 39,
-  "question": "Q 39. Investors wishing to open account with the depository have the following benefits/choices :\nCan select the DP based on the investors convenience, comfort, service levels, safety, reputation, charges etc.\nHave the flexibility to open more than one account with the same DP or any other DPs\nCan close an account anytime with one DP and open another one with any other DP.\nWhich of the above is true ?",
-  "options": [
-    "A) 1 and 2",
-    "B) 2 and 3",
-    "C) 1 and 3",
-    "D) 1 , 2 and 3 ✓"
-  ],
-  "answerIndex": 3,
-  "explanation": "Explanation:\nInvestors wishing to open account with the depository have the following benefits/choices:\nCan select the DP based on the investors convenience, comfort, service levels, safety, reputation, charges etc\nHave the flexibility to open more than one account with the same DP or any other DPs\nNo requirement of minimum balance\nCan close an account anytime with one DP and open another one with any other DP.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 9: Special Services- Pledge and Hypothecation",
-  "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
-  "id": 40,
-  "question": "Q 40. What care should be taken by Depository Participants while processing a pledge request ?",
-  "options": [
-    "A) Pledgor DP and Pledgee DP each shall create at least two users to implement the Makerchecker feature",
-    "B) Ensure that all compulsory fields in the instruction form are entered",
-    "C) Instruction form is submitted in duplicate",
-    "D) All of the above ✓"
-  ],
-  "answerIndex": 3,
-  "explanation": "Explanation:\nWhile processing a pledge/hypothecation request, the DP should take care that Pledgor DP and Pledgee DP each shall create at least two users to implement the Makerchecker feature and ensure that all compulsory fields in the instruction form are entered.\nIt should also ensure that the instruction form is submitted in duplicate.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 1: Introduction to the Indian Capital Market",
-  "chapter": "Chapter 1: Introduction to the Indian Capital Market",
-  "id": 41,
-  "question": "Q 41. _________ regulates the sale and purchase of derivatives contract on money market securities.",
-  "options": [
-    "A) RBI ✓",
-    "B) SEBI",
-    "C) NSE",
-    "D) NSDL / CDSL"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nThe powers in respect of the contracts for sale and purchase of securities, gold related securities, money market securities and securities derived from these securities and ready forward contracts in debt securities are exercised concurrently by RBI.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 8: Functions of DP- Trading and Settlement",
-  "chapter": "Chapter 8: Functions of DP- Trading and Settlement",
-  "id": 42,
-  "question": "Q 42. In case of an Off market trade, the debit is effected on the execution date.",
-  "options": [
-    "A) True ✓",
-    "B) False"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nAny trade that is cleared and settled without the participation of a clearing member or clearing corporation ie. without the involvement of a Stock Exchange, is called off-market trade.\nThe account holder is required to specify the date on which instruction should be executed by mentioning the execution date on the instruction. The debit will be effected on this execution date.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 2: Introduction to Depository",
-  "chapter": "Chapter 2: Introduction to Depository",
-  "id": 43,
-  "question": "Q 43. Before commencing operations, depositories should obtain a certificate of registration and a certificate of commencement of business from ______ .",
-  "options": [
-    "A) SEBI ✓",
-    "B) RBI",
-    "C) Stock Exchanges",
-    "D) Major stake holders of the depositories"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nBefore commencing operations, depositories in India are required to obtain:\nA Certificate of Registration, and\nA Certificate of Commencement of Business\nfrom the Securities and Exchange Board of India (SEBI).\nThis requirement is laid out under the Depositories Act, 1996 and SEBI regulations.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 11: Special Services- Debt Instruments & Government Securities",
-  "chapter": "Chapter 11: Special Services- Debt Instruments & Government Securities",
-  "id": 44,
-  "question": "Q 44. At the time of delivery of warehouse receipts, client initiates a remat request through the DP using the __________ .",
-  "options": [
-    "A) Physical Delivery Request Form (PDRF). ✓",
-    "B) Special Delivery Request Form (SDRF)",
-    "C) Demat Request Form – Warehouse Receipt (DRF-WR)",
-    "D) Either 1 or 2"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nRemember its - Physical Delivery Request Form (PDRF)​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 7: Functions of DP- Dematerialisation",
-  "chapter": "Chapter 7: Functions of DP- Dematerialisation",
-  "id": 45,
-  "question": "Q 45. It is possible for investors to transpose names of the joint holders alongwith the process of dematerialisation through their DPs",
-  "options": [
-    "A) True ✓",
-    "B) False"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nTransposition means that if the shares are held in the name of A & B and customer has a demat account in the reverse order i.e. name of B & A - the shares can be dematerialised in the same account, and a new demat account in the name of B and A would not be required.\nThe depositories have amended their Bye-Laws and procedure to enable investors to transpose names of the joint holders along with the process of dematerialisation through their DPs. Prior to this amendment, investors having shares in joint names (Mr. A & Mr. B), but in different sequence (Mr. B & Mr. A) were either required to open multiple accounts for each sequence (Mr. A & Mr. B and Mr. B & Mr. A) or to effect the transposition directly with the Issuer/R&T Agent and then dematerialize their securities through their DPs.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 4: Functions of DP-Account opening",
-  "chapter": "Chapter 4: Functions of DP-Account opening",
-  "id": 46,
-  "question": "Q 46. Its compulsory for the trading members to upload the KYC details to the KRA agencies registered with SEBI after completing the client account opening procedures.",
-  "options": [
-    "A) True ✓",
-    "B) False"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nThe members, after completing the client account opening procedures, are required to upload the KYC details to the KRA agencies registered with SEBI.\nSEBI has simplified the account opening process for investors and made it uniform across intermediaries in the securities markets. Further, to avoid duplication of KYC process with every intermediary, KRA system was developed for centralization of the KYC records in the securities markets. The system was made applicable for new clients who opened accounts with the intermediaries from January1, 2012.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 6: Functions of DP- Transmission & Nomination",
-  "chapter": "Chapter 6: Functions of DP- Transmission & Nomination",
-  "id": 47,
-  "question": "Q 47. Where there is an objection from any member of the HUF, transmission of securities held in the beneficial owner account should be effected only on the basis of a Decree by a competent Court or the Deed of Partition.",
-  "options": [
-    "A) True ✓",
-    "B) False"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nWhere there is an objection from any member of the HUF, transmission of securities held in the beneficial owner account should be effected only on the basis of a Decree by a competent Court or the Deed of Partition.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 13: Investor Services",
-  "chapter": "Chapter 13: Investor Services",
-  "id": 48,
-  "question": "Q 48. In case of grievances , the investor is first expected to approach whom amongst the foll :",
-  "options": [
-    "A) The Concerned Intermediary ✓",
-    "B) SEBI",
-    "C) Stock Exchange",
-    "D) Finance Ministry"
-  ],
-  "answerIndex": 0,
-  "explanation": "Explanation:\nInvestors are the backbone of the securities market. Protection of the interests of these investors is of paramount importance.\nWhen the investors have grievances against the intermediary /broking firm through which it deals in the market or against the company for which it is a shareholder. In event of such a grievance, the investor is required to first approach the concerned intermediary/company for settling of the grievance. The investor may however not be satisfied with the response. In such a situation, the matter can be brought to the notice of the stock exchange.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 8: Functions of DP- Trading and Settlement",
-  "chapter": "Chapter 8: Functions of DP- Trading and Settlement",
-  "id": 49,
-  "question": "Q 49. Who is required to give the Inter-settlement Instructions to the Participants for securities lying within a same CM account but in different settlement a pocket?",
-  "options": [
-    "A) Depository",
-    "B) Clearing Member ✓",
-    "C) Exchange",
-    "D) Clearing House"
-  ],
-  "answerIndex": 1,
-  "explanation": "Explanation:\nClearing Members will be required to give Inter-settlement Instructions to the Participants for securities lying within a same CM account but in different settlement pocket.​"
-},
-{
-  "questionSet": "Questions-Set-3",
-  "module": "Chapter 9: Special Services- Pledge and Hypothecation",
-  "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
-  "id": 50,
-  "question": "Q 50. In NSDL, a pledgor (borrower) can substitute the securities offered in a pledge transaction, if the pledgee (lender) agrees to it.",
-  "options": [
-    "A) False",
-    "B) True ✓"
-  ],
-  "answerIndex": 1,
-  "explanation": "Explanation:\nThis can be explained by an example : Lets assume that the securities of XYZ company. were offered as collateral. Now the pledgor wants to offer securities of company PQR Ltd. instead of XYZ ltd., he may do so if the pledgee agrees to it.\nThe procedure for effecting this change involves the procedure of closure of earlier pledge and creation of a new pledge."
-}
-]
+]```
