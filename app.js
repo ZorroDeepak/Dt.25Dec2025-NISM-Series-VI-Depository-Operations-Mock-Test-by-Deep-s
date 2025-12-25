@@ -69,11 +69,13 @@ function buildFilters() {
   const moduleSelect = document.getElementById('moduleSelect');
   const chapterSelect = document.getElementById('chapterSelect');
 
-  const questionSets = [...new Set(allQuestions.map(q => q.questionSet))].sort((a, b) => {
-    const na = Number(a);
-    const nb = Number(b);
-    if (!Number.isNaN(na) && !Number.isNaN(nb)) return na - nb;
-    return String(a).localeCompare(String(b));
+const questionSets = [...new Set(allQuestions.map(q => q.questionSet))]
+  .sort((a, b) => {
+    const getNum = v => {
+      const m = v.match(/Set-(\d+)/);
+      return m ? Number(m[1]) : Infinity;
+    };
+    return getNum(a) - getNum(b);
   });
 
   const modules = [...new Set(allQuestions.map(q => q.module))].sort();
@@ -410,4 +412,5 @@ function shuffleArray(arr) {
   }
   return a;
 }
+
 
