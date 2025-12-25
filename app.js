@@ -1,13 +1,14 @@
-// app.js – CLEAN & FIXED VERSION (Question-Set-3 ISSUE SOLVED)
+// app.js – multi JSON + filters + bottom grid + bold explanation + remember answers
 
-// ---------------- CONFIG ----------------
 const QUESTION_FILES = [
+  // Main sets
   'Questions-Set-1.json',
   'Questions-Set-2.json',
   'Questions-Set-3.json',
   'Questions-Set-4.json',
   'Questions-Set-5.json',
 
+  // Last Day Revision Tests
   'Last-Day-Revision-Test-1-Q1-Q50-Questions.json',
   'Last-Day-Revision-Test-1-Q51-Q100-Questions.json',
   'Last-Day-Revision-Test-2-Q1-Q50-Questions.json',
@@ -18,82 +19,65 @@ const QUESTION_FILES = [
 
 const QUESTIONS_PER_TEST = 50;
 
-// ---------------- STATE ----------------
 let allQuestions = [];
 let currentQuestions = [];
 let currentIndex = 0;
 let correctCount = 0;
-
-let answersStatus = [];
-let userAnswers = [];
-
 let timerInterval = null;
 let startTime = null;
 
-// ---------------- INIT ----------------
-document.addEventListener('DOMContentLoaded', async () => {
-  try {
-    await loadAllQuestions();
-    buildFilters();
-    wireFilterEvents();
-  } catch (e) {
-    console.error(e);
-    alert('Failed to load questions');
-  }
+let answersStatus = []; // 'notVisited' | 'current' | 'answered' | 'skipped'
+let userAnswers = [];   // selected option index per question (or null)
+
+// ---------- INIT ----------
+document.addEventListener('DOMContentLoaded', () => {
+  loadAllQuestions()
+    .then(() => {
+      buildFilters();
+      wireFilterEvents();
+    })
+    .catch(err => {
+      console.error(err);
+      alert('Error loading questions.');
+    });
 });
 
-// ---------------- LOAD QUESTIONS ----------------
+// ---------- LOAD ----------
 async function loadAllQuestions() {
-  const loaded = [];
+  const arrays = [];
 
   for (const file of QUESTION_FILES) {
     try {
-      const res = await fetch(file);
-      if (!res.ok) {
-        console.warn('Failed to load:', file);
+      const r = await fetch(file);
+      if (!r.ok) {
+        console.warn('Failed to load', file, r.status);
         continue;
       }
-      const data = await res.json();
-      if (Array.isArray(data)) loaded.push(...data);
-    } catch (err) {
-      console.warn('Error loading:', file, err);
+      const data = await r.json();
+      if (Array.isArray(data)) arrays.push(data);
+    } catch (e) {
+      console.warn('Error loading', file, e);
     }
   }
 
-  allQuestions = loaded;
-  console.log('Total Questions Loaded:', allQuestions.length);
+  allQuestions = arrays.flat();
 }
 
-// ---------------- FILTER UI ----------------
+// ---------- FILTER UI ----------
 function buildFilters() {
   const qsSelect = document.getElementById('questionSetSelect');
   const moduleSelect = document.getElementById('moduleSelect');
   const chapterSelect = document.getElementById('chapterSelect');
 
-  // ✅ SAFE & CORRECT Question Set extraction
-  const questionSets = Array.from(
-    new Set(
-      allQuestions
-        .map(q => q.questionSet)
-        .filter(v => typeof v === 'string' && v.trim() !== '')
-    )
-  ).sort((a, b) => {
-    const getNum = s => {
-      const m = s.match(/Set-(\d+)/);
-      return m ? parseInt(m[1], 10) : 9999;
-    };
-    return getNum(a) - getNum(b);
+  const questionSets = [...new Set(allQuestions.map(q => q.questionSet))].sort((a, b) => {
+    const na = Number(a);
+    const nb = Number(b);
+    if (!Number.isNaN(na) && !Number.isNaN(nb)) return na - nb;
+    return String(a).localeCompare(String(b));
   });
 
-  console.table(questionSets); // 🔍 Debug proof
-
-  const modules = Array.from(
-    new Set(allQuestions.map(q => q.module).filter(Boolean))
-  ).sort();
-
-  const chapters = Array.from(
-    new Set(allQuestions.map(q => q.chapter).filter(Boolean))
-  ).sort();
+  const modules = [...new Set(allQuestions.map(q => q.module))].sort();
+  const chapters = [...new Set(allQuestions.map(q => q.chapter))].sort();
 
   qsSelect.innerHTML =
     '<option value="">Select set</option>' +
@@ -107,7 +91,7 @@ function buildFilters() {
     '<option value="">Select chapter</option>' +
     chapters.map(c => `<option value="${c}">${c}</option>`).join('');
 
-  document.getElementById('startBtn').onclick = onStartTest;
+  document.getElementById('startBtn').addEventListener('click', onStartTest);
 }
 
 function wireFilterEvents() {
@@ -118,12 +102,13 @@ function wireFilterEvents() {
 
 function updateFilterEnabling() {
   const mode = document.getElementById('filterType').value;
+
   document.getElementById('questionSetSelect').disabled = mode !== 'questionSet';
   document.getElementById('moduleSelect').disabled = mode !== 'module';
   document.getElementById('chapterSelect').disabled = mode !== 'chapter';
 }
 
-// ---------------- FILTER LOGIC ----------------
+// ---------- FILTER LOGIC ----------
 function getFilteredQuestions() {
   const mode = document.getElementById('filterType').value;
   const qsVal = document.getElementById('questionSetSelect').value;
@@ -132,27 +117,40 @@ function getFilteredQuestions() {
 
   let filtered = [];
 
-  if (mode === 'all') filtered = allQuestions;
-  else if (mode === 'questionSet') {
-    if (!qsVal) return alert('Select Question Set');
-    filtered = allQuestions.filter(q => q.questionSet === qsVal);
+  if (mode === 'all') {
+    filtered = [...allQuestions];
+  } else if (mode === 'questionSet') {
+    if (!qsVal) {
+      alert('Select Question Set');
+      return null;
+    }
+    filtered = allQuestions.filter(q => String(q.questionSet) === qsVal);
   } else if (mode === 'module') {
-    if (!moduleVal) return alert('Select Module');
+    if (!moduleVal) {
+      alert('Select Module');
+      return null;
+    }
     filtered = allQuestions.filter(q => q.module === moduleVal);
   } else if (mode === 'chapter') {
-    if (!chapterVal) return alert('Select Chapter');
+    if (!chapterVal) {
+      alert('Select Chapter');
+      return null;
+    }
     filtered = allQuestions.filter(q => q.chapter === chapterVal);
+  } else {
+    alert('Select mode');
+    return null;
   }
 
   if (!filtered.length) {
-    alert('No questions found');
+    alert('No questions for this selection');
     return null;
   }
 
   return filtered;
 }
 
-// ---------------- START TEST ----------------
+// ---------- START TEST ----------
 function onStartTest() {
   const filtered = getFilteredQuestions();
   if (!filtered) return;
@@ -163,6 +161,7 @@ function onStartTest() {
 
   answersStatus = new Array(currentQuestions.length).fill('notVisited');
   answersStatus[0] = 'current';
+
   userAnswers = new Array(currentQuestions.length).fill(null);
 
   startTimer();
@@ -171,7 +170,7 @@ function onStartTest() {
   renderQuestionGrid();
 }
 
-// ---------------- TIMER ----------------
+// ---------- TIMER ----------
 function startTimer() {
   stopTimer();
   startTime = Date.now();
@@ -186,119 +185,229 @@ function startTimer() {
 }
 
 function stopTimer() {
-  if (timerInterval) clearInterval(timerInterval);
-  timerInterval = null;
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
 }
 
-// ---------------- RENDER QUESTION ----------------
+// ---------- RENDER QUESTION ----------
 function renderCurrentQuestion() {
   const container = document.getElementById('quizContainer');
   const q = currentQuestions[currentIndex];
-  if (!q) return showResult();
 
-  const saved = userAnswers[currentIndex];
+  if (!q) {
+    showResult();
+    return;
+  }
+
+  const total = currentQuestions.length;
+  const num = currentIndex + 1;
+  const savedAnswer = userAnswers[currentIndex];
+
+  const optionsHtml = q.options
+    .map((opt, i) => {
+      const checked = savedAnswer === i ? 'checked' : '';
+      return `
+        <div class="option">
+          <label>
+            <input type="radio" name="option" value="${i}" ${checked}>
+            ${String.fromCharCode(65 + i)}. ${opt}
+          </label>
+        </div>`;
+    })
+    .join('');
+
+  let feedbackHtml = '';
+  if (savedAnswer !== null) {
+    const isCorrect = savedAnswer === q.answerIndex;
+    const statusText = isCorrect ? 'Correct!' : 'Incorrect';
+    const statusClass = isCorrect ? 'correct' : 'incorrect';
+    feedbackHtml = `
+      <div class="feedback ${statusClass}">
+        ${statusText}
+      </div>
+      <div class="explanation">
+        ${q.explanation || ''}
+      </div>`;
+  }
 
   container.innerHTML = `
     <div class="question-meta">
-      <strong>Q${currentIndex + 1} / ${currentQuestions.length}</strong>
-      <div>Set: ${q.questionSet} | Module: ${q.module} | Chapter: ${q.chapter}</div>
+      <div><strong>Q${num} / ${total}</strong></div>
+      <div>Set: ${q.questionSet} &nbsp;|&nbsp; Module: ${q.module} &nbsp;|&nbsp; Chapter: ${q.chapter}</div>
     </div>
     <div class="question-text">${q.question}</div>
     <div class="options">
-      ${q.options.map((o, i) => `
-        <label>
-          <input type="radio" name="opt" value="${i}" ${saved === i ? 'checked' : ''}>
-          ${String.fromCharCode(65 + i)}. ${o}
-        </label>
-      `).join('')}
+      ${optionsHtml}
     </div>
+    ${feedbackHtml}
   `;
 
-  container.querySelectorAll('input[name="opt"]').forEach(inp => {
-    inp.onchange = () => {
-      const val = Number(inp.value);
-      const prev = userAnswers[currentIndex];
+  const optionInputs = container.querySelectorAll('input[name="option"]');
+  optionInputs.forEach(inp => {
+    inp.addEventListener('change', () => {
+      const chosen = Number(inp.value);
+      const prevAnswer = userAnswers[currentIndex];
 
-      userAnswers[currentIndex] = val;
+      userAnswers[currentIndex] = chosen;
+
+      const wasCorrectBefore = prevAnswer !== null && prevAnswer === q.answerIndex;
+      const isCorrectNow = chosen === q.answerIndex;
+
+      if (!wasCorrectBefore && isCorrectNow) correctCount++;
+      if (wasCorrectBefore && !isCorrectNow) correctCount--;
+
       answersStatus[currentIndex] = 'answered';
-
-      if (prev !== q.answerIndex && val === q.answerIndex) correctCount++;
-      if (prev === q.answerIndex && val !== q.answerIndex) correctCount--;
 
       renderCurrentQuestion();
       renderQuestionGrid();
-    };
+    });
   });
 }
 
-// ---------------- NAVIGATION ----------------
+// ---------- NAV BUTTONS ----------
 function renderNavButtons() {
   const nav = document.getElementById('navButtons');
+  if (!nav) return;
+
   nav.innerHTML = `
-    <button onclick="onPrev()">Previous</button>
-    <button onclick="onSkip()">Skip</button>
-    <button onclick="onNext()">Next</button>
+    <button id="prevBtn">Previous</button>
+    <button id="skipBtn">Skip</button>
+    <button id="nextBtn">Next</button>
   `;
+
+  document.getElementById('prevBtn').addEventListener('click', onPrev);
+  document.getElementById('skipBtn').addEventListener('click', onSkip);
+  document.getElementById('nextBtn').addEventListener('click', onNext);
 }
 
+// ---------- QUESTION GRID ----------
+function renderQuestionGrid() {
+  const gridContainer = document.getElementById('questionGridContainer');
+  if (!gridContainer) return;
+
+  const buttonsHtml = answersStatus
+    .map((status, idx) => {
+      let cls = 'q-box';
+      if (status === 'current') cls += ' current';
+      else if (status === 'answered') cls += ' answered';
+      else if (status === 'skipped') cls += ' skipped';
+
+      return `<button class="${cls}" data-qidx="${idx}">${idx + 1}</button>`;
+    })
+    .join('');
+
+  gridContainer.innerHTML = `
+    <div class="question-grid">
+      ${buttonsHtml}
+    </div>
+    <div class="legend">
+      <span class="legend-item"><span class="current-dot"></span>Current</span>
+      <span class="legend-item"><span class="answered-dot"></span>Answered</span>
+      <span class="legend-item"><span class="notvisited-dot"></span>Not visited</span>
+      <span class="legend-item"><span class="skipped-dot"></span>Skipped</span>
+    </div>
+  `;
+
+  gridContainer.querySelectorAll('.q-box').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = Number(btn.getAttribute('data-qidx'));
+      moveToQuestion(target);
+    });
+  });
+}
+
+// ---------- NAVIGATION ----------
 function onNext() {
-  if (currentIndex < currentQuestions.length - 1) currentIndex++;
-  updateCurrentStatus();
-  renderCurrentQuestion();
-  renderQuestionGrid();
+  if (currentIndex < currentQuestions.length - 1) {
+    currentIndex++;
+    updateCurrentStatus();
+    renderCurrentQuestion();
+    renderQuestionGrid();
+  } else {
+    showResult();
+  }
 }
 
 function onPrev() {
-  if (currentIndex > 0) currentIndex--;
+  if (currentIndex === 0) return;
+  currentIndex--;
   updateCurrentStatus();
   renderCurrentQuestion();
   renderQuestionGrid();
 }
 
 function onSkip() {
-  if (userAnswers[currentIndex] === null)
+  if (userAnswers[currentIndex] === null) {
     answersStatus[currentIndex] = 'skipped';
-  onNext();
+  }
+
+  if (currentIndex < currentQuestions.length - 1) {
+    currentIndex++;
+    updateCurrentStatus();
+    renderCurrentQuestion();
+    renderQuestionGrid();
+  } else {
+    showResult();
+  }
 }
 
-function updateCurrentStatus() {
-  answersStatus = answersStatus.map((s, i) =>
-    i === currentIndex ? 'current' : s === 'current' ? 'notVisited' : s
-  );
-}
-
-// ---------------- GRID ----------------
-function renderQuestionGrid() {
-  const grid = document.getElementById('questionGridContainer');
-  grid.innerHTML = currentQuestions.map((_, i) =>
-    `<button class="q-box ${answersStatus[i]}" onclick="jumpTo(${i})">${i + 1}</button>`
-  ).join('');
-}
-
-function jumpTo(i) {
-  currentIndex = i;
+function moveToQuestion(idx) {
+  if (idx < 0 || idx >= currentQuestions.length) return;
+  currentIndex = idx;
   updateCurrentStatus();
   renderCurrentQuestion();
   renderQuestionGrid();
 }
 
-// ---------------- RESULT ----------------
-function showResult() {
-  stopTimer();
-  document.getElementById('quizContainer').innerHTML = `
-    <h2>Test Completed</h2>
-    <p>Score: <strong>${correctCount}</strong> / ${currentQuestions.length}</p>
-  `;
-  document.getElementById('navButtons').innerHTML = '';
-  document.getElementById('questionGridContainer').innerHTML = '';
+function updateCurrentStatus() {
+  answersStatus = answersStatus.map((s, i) => {
+    if (i === currentIndex) return s === 'answered' ? 'answered' : 'current';
+    if (s === 'current' && userAnswers[i] === null) return 'notVisited';
+    return s;
+  });
 }
 
-// ---------------- UTIL ----------------
+// ---------- RESULT ----------
+function showResult() {
+  stopTimer();
+
+  const container = document.getElementById('quizContainer');
+  const total = currentQuestions.length || 0;
+
+  container.innerHTML = `
+    <div class="result">
+      <h2>Test Completed</h2>
+      <p>Score: <strong>${correctCount}</strong> / ${total}</p>
+      <button id="restartBtn">Start New Test</button>
+    </div>
+  `;
+
+  const nav = document.getElementById('navButtons');
+  if (nav) nav.innerHTML = '';
+
+  const grid = document.getElementById('questionGridContainer');
+  if (grid) grid.innerHTML = '';
+
+  document.getElementById('restartBtn').addEventListener('click', () => {
+    currentQuestions = [];
+    currentIndex = 0;
+    correctCount = 0;
+    answersStatus = [];
+    userAnswers = [];
+    document.getElementById('quizContainer').innerHTML = '';
+    stopTimer();
+  });
+}
+
+// ---------- UTIL ----------
 function shuffleArray(arr) {
-  const a = [...arr];
+  const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
 }
+
