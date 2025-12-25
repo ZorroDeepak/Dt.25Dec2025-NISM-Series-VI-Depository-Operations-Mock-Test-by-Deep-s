@@ -2,11 +2,11 @@
 
 const QUESTION_FILES = [
   // Main sets
-  'questions-set-1.json',
-  'questions-set-2.json',
-  'questions-set-3.json',
-  'questions-set-4.json',
-  'questions-set-5.json',
+  'Questions-Set-1.json',
+  'Questions-Set-2.json',
+  'Questions-Set-3.json',
+  'Questions-Set-4.json',
+  'Questions-Set-5.json',
 
   // Last Day Revision Tests
   'Last-Day-Revision-Test-1-Q1-Q50-Questions.json',
@@ -410,3 +410,4 @@ function shuffleArray(arr) {
   }
   return a;
 }
+
