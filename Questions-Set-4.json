@@ -4,12 +4,12 @@
     "module": "Chapter 6: Functions of DP- Transmission & Nomination",
     "chapter": "Chapter 6: Functions of DP- Transmission & Nomination",
     "id": 1,
-    "question": "Q 1. The word _______ means devolution (transfer) of title to shares.",
+    "question": "The word _______ means devolution (transfer) of title to shares.",
     "options": [
-      "A) Nomination",
-      "B) Transposition",
-      "C) Transmission ✓",
-      "D) Taxation"
+      "Nomination",
+      "Transposition",
+      "Transmission",
+      "Taxation"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nThe word `transmission’ means devolution (transfer) of title to shares, for example, devolution by death, lunacy, bankruptcy, winding-up (in case of corporate) etc."
@@ -19,12 +19,12 @@
     "module": "Chapter 5: Functions of DP-Account operations",
     "chapter": "Chapter 5: Functions of DP-Account operations",
     "id": 2,
-    "question": "Q 2. In the event of loss or destruction of data, the DP should have a sufficient _______ .",
+    "question": "In the event of loss or destruction of data, the DP should have a sufficient _______ .",
     "options": [
-      "A) insurance",
-      "B) security",
-      "C) back-up of records ✓",
-      "D) All of the above"
+      "insurance",
+      "security",
+      "back-up of records",
+      "All of the above"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nAs per SEBI rules : DPs who maintain electronic records should ensure the integrity of the data processing systems. All necessary precautions should be taken to ensure that the records are not lost, destroyed or tampered with. In the event of loss or destruction, sufficient back-up of records should be taken and made available at all times at a different place."
@@ -34,10 +34,10 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 3,
-    "question": "Q 3. A foreign bank operating in India with the approval of the Reserve Bank of India can be registered as a Depository Participant (DP) - State whether True or False?",
+    "question": "A foreign bank operating in India with the approval of the Reserve Bank of India can be registered as a Depository Participant (DP) - State whether True or False?",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nPersons belonging to one of the following categories are eligible to become a DP:\nA public financial institution as defined in section 2(72) of the Companies Act 2013.\nA bank included for the time being in the Second Schedule to the Reserve Bank of India Act, 1934.\nA foreign bank operating in India with approval of the Reserve Bank of India etc."
@@ -47,12 +47,12 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 4,
-    "question": "Q 4. A DP, while conducting any business with a client, acts as an agent of the ______ .",
+    "question": "A DP, while conducting any business with a client, acts as an agent of the ______ .",
     "options": [
-      "A) Client",
-      "B) Depository ✓",
-      "C) SEBI",
-      "D) Clearing Corporation"
+      "Client",
+      "Depository",
+      "SEBI",
+      "Clearing Corporation"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nA DP, while conducting any business with a client, acts as an agent of the depository and is liable to the clients for all the acts and deeds performed by it."
@@ -62,12 +62,12 @@
     "module": "Chapter 12: Foreign Portfolio Investors(FPI)",
     "chapter": "Chapter 12: Foreign Portfolio Investors(FPI)",
     "id": 5,
-    "question": "Q 5. _________ is considered a Foreign Portfolio Investor.",
+    "question": "_________ is considered a Foreign Portfolio Investor.",
     "options": [
-      "A) Qualified Financial Institutions (QFIs)",
-      "B) Foreign Institutional Investors (FIIs)",
-      "C) Sub-Accounts",
-      "D) All of the above ✓"
+      "Qualified Financial Institutions (QFIs)",
+      "Foreign Institutional Investors (FIIs)",
+      "Sub-Accounts",
+      "All of the above"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nAll FIIs, Sub Accounts & QFIs are deemed to be Foreign Portfolio Investors from June 1, 2014."
@@ -77,12 +77,12 @@
     "module": "Chapter 5: Functions of DP-Account operations",
     "chapter": "Chapter 5: Functions of DP-Account operations",
     "id": 6,
-    "question": "Q 6. Which of the following instruction has to be given by the transferee to its DP for receiving securities?",
+    "question": "Which of the following instruction has to be given by the transferee to its DP for receiving securities?",
     "options": [
-      "A) Operating instruction",
-      "B) Delivery instruction",
-      "C) Debit instruction",
-      "D) Standing Instructions / Purchase confirmation waiver ✓"
+      "Operating instruction",
+      "Delivery instruction",
+      "Debit instruction",
+      "Standing Instructions / Purchase confirmation waiver"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nFor ease of operation and elimination of redundancies, a clause has been included in the standard format of Rights and Obligations document.\nThis clause enables clients to give Standing Instructions to DPs, at the time of opening the account itself, for receiving securities to the credit of their accounts without any further instruction from them."
@@ -92,12 +92,12 @@
     "module": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "chapter": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "id": 7,
-    "question": "Q 7. Who gives the acknowledgement to the client when Certificate of Deposits (CD) are given for dematerialisation?",
+    "question": "Who gives the acknowledgement to the client when Certificate of Deposits (CD) are given for dematerialisation?",
     "options": [
-      "A) Bank",
-      "B) Depository Participant (DP) ✓",
-      "C) Stock Exchanges",
-      "D) SEBI"
+      "Bank",
+      "Depository Participant (DP)",
+      "Stock Exchanges",
+      "SEBI"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nThe procedure for dematerialisation of CD is same as that carried out for equity shares. The client will submit a request to the DP, in the DRF (Dematerialisation request form), along with the original CD certificate/s to be dematerialised.\nThe DP would give an acknowledgement (DRF acknowledgement portion) to its client confirming the acceptance of the CD for dematerialisation."
@@ -107,10 +107,10 @@
     "module": "Chapter 5: Functions of DP-Account operations",
     "chapter": "Chapter 5: Functions of DP-Account operations",
     "id": 8,
-    "question": "Q 8. When a Demat account is frozen for 'Debits Only', can the client receive securities in his account? State Yes or No?",
+    "question": "When a Demat account is frozen for 'Debits Only', can the client receive securities in his account? State Yes or No?",
     "options": [
-      "A) Yes ✓",
-      "B) No"
+      "Yes",
+      "No"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nBy freezing an account for debits only (preventing transfer of securities in / out of the account), the client can receive securities in his account.\nThe client can receive securities but cannot transfer out the securities from his demat account."
@@ -120,12 +120,12 @@
     "module": "Chapter 7: Functions of DP- Dematerialisation",
     "chapter": "Chapter 7: Functions of DP- Dematerialisation",
     "id": 9,
-    "question": "Q 9. Which authority issues the physical certificates to the clients on receipt of remat request?",
+    "question": "Which authority issues the physical certificates to the clients on receipt of remat request?",
     "options": [
-      "A) Depository Participant",
-      "B) Depository",
-      "C) Stock Exchange",
-      "D) Issuer or the Registrar and Transfer Agent ✓"
+      "Depository Participant",
+      "Depository",
+      "Stock Exchange",
+      "Issuer or the Registrar and Transfer Agent"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nOn receipt of a Remat Request Form (RRF) from the client, the DP forwards it to the Issuer or its R&T Agent. The Issuer/R&T Agent, after validating the RRF, confirms to the depository electronically that the RRF has been accepted.\nThereafter, the Issuer/R&T Agent despatches the security certificates arising out of the rematerialisation request within a period of 30 days from receipt of such RRF directly to the client."
@@ -135,12 +135,12 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 10,
-    "question": "Q 10. In which way do the issuers determine the beneficiary owners for the purpose of declaration of corporate actions such as dividend, rights and bonus?",
+    "question": "In which way do the issuers determine the beneficiary owners for the purpose of declaration of corporate actions such as dividend, rights and bonus?",
     "options": [
-      "A) By using the average holding period for a security holder",
-      "B) By using the average buy price for a security",
-      "C) By announcing a cut-off date ✓",
-      "D) By random allocation"
+      "By using the average holding period for a security holder",
+      "By using the average buy price for a security",
+      "By announcing a cut-off date",
+      "By random allocation"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nCorporate actions affect the holder of the securities. Thus, whenever any corporate action takes place it is necessary to determine the eligible Beneficial Owner's (BOs) as of a particular date who are entitled to the corporate benefits. The issuer thus announces a cut-off date to determine the BOs of the securities as of that date.\nThis date is referred to as the `Record Date’ and depository system provides holding report i.e. list of BOs having holdings in the ISIN of the issuer as of end of the day of record date."
@@ -150,10 +150,10 @@
     "module": "Chapter 2: Introduction to Depository",
     "chapter": "Chapter 2: Introduction to Depository",
     "id": 11,
-    "question": "Q 11. In India, the Securities and Exchange Board India (SEBI) has delegated the assigning of ISIN of various securities to NSDL - State whether True or False?",
+    "question": "In India, the Securities and Exchange Board India (SEBI) has delegated the assigning of ISIN of various securities to NSDL - State whether True or False?",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nIn India, the Securities and Exchange Board India (SEBI) has delegated the assigning of ISIN of various securities to National Securities Depository Limited (NSDL).\n(Allotment of ISIN for G-sec is done by Reserve Bank of India)"
@@ -163,12 +163,12 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 12,
-    "question": "Q 12. In case the pledgor (borrower) repays the loan to the pledgee, then he gives the pledge closure request to ______ .",
+    "question": "In case the pledgor (borrower) repays the loan to the pledgee, then he gives the pledge closure request to ______ .",
     "options": [
-      "A) RBI",
-      "B) SEBI",
-      "C) Depository",
-      "D) Depository Participant ✓"
+      "RBI",
+      "SEBI",
+      "Depository",
+      "Depository Participant"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nPledgor gives a Pledge Closure request to his DP."
@@ -178,12 +178,12 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 13,
-    "question": "Q 13. Of the below options, which persons/entities can register as a Depository Participant?\nHigh Networth Indvidual (HNI)\nStock Brokers\nR&T Agent\nNon Banking Finance Company",
+    "question": "Of the below options, which persons/entities can register as a Depository Participant?\nHigh Networth Indvidual (HNI)\nStock Brokers\nR&T Agent\nNon Banking Finance Company",
     "options": [
-      "A) Only 1 and 2",
-      "B) Only 2,3 and 4 ✓",
-      "C) Only 3 and 4",
-      "D) Only 2 and 4"
+      "Only 1 and 2",
+      "Only 2,3 and 4",
+      "Only 3 and 4",
+      "Only 2 and 4"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nThe foll entities can become a DP :\nA public financial institution as defined in section 4A of the Companies Act.\nA bank included for the time being in the Second Schedule to the Reserve Bank of India Act, 1934.\nA foreign bank operating in India with approval of the Reserve Bank of India.\nA State Financial Corporation established under the provisions of section 3 of the State Financial Corporations Act, 1951.\nAn institution engaged in providing financial services, promoted jointly or severally by any of the institutions mentioned in the four above-mentioned clauses.\nA custodian of securities who has been granted a certificate of registration by SEBI.\nA clearing corporation or a clearing house of a stock exchange.\nA stockbroker who has been granted a certificate of registration by SEBI.\nA non-banking finance company.\nAn R&T Agent who has been granted a certificate of registration by SEBI\nA HNI cannot become a DP."
@@ -193,12 +193,12 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 14,
-    "question": "Q 14. An applicant, for registering as DP with NSDL should have a minimum net worth of ____ and for CDSL the minimum networth requirement is ____ .",
+    "question": "An applicant, for registering as DP with NSDL should have a minimum net worth of ____ and for CDSL the minimum networth requirement is ____ .",
     "options": [
-      "A) Rs. 50 crore , Rs. 40 crore",
-      "B) Rs. 10 crore , Rs. 7.5 crore",
-      "C) Rs. 5 crore , Rs. 3 crore",
-      "D) Rs. 3 crore , Rs. 2 crore ✓"
+      "Rs. 50 crore , Rs. 40 crore",
+      "Rs. 10 crore , Rs. 7.5 crore",
+      "Rs. 5 crore , Rs. 3 crore",
+      "Rs. 3 crore , Rs. 2 crore"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nThe applicant should have a minimum net worth of Rupees 3 crore (for NSDL). The net worth is to be calculated as per the method of computation prescribed by the respective depository. The stock broker DP should have a minimum networth of Rs. 2 crores (for CDSL)."
@@ -208,10 +208,10 @@
     "module": "Chapter 5: Functions of DP-Account operations",
     "chapter": "Chapter 5: Functions of DP-Account operations",
     "id": 15,
-    "question": "Q 15. A beneficiary account holder is legally entitled for all rights and liabilities attached to the securities held in that account. State whether True or False?",
+    "question": "A beneficiary account holder is legally entitled for all rights and liabilities attached to the securities held in that account. State whether True or False?",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nA beneficiary account holder is legally entitled for all rights and liabilities attached to the securities held in that account. Therefore, the account is called “Beneficial Owner Account”."
@@ -221,12 +221,12 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 16,
-    "question": "Q 16. Mr. Soham has some shares of PPP Company Ltd. in demateralised form. A Rights Issue is announced and PPP Company gives an option to Mr. Soham to receive the securities in either physical or demat form. If Mr. Soham applies for the rights issue but does not exercise the option of physical or demat form, in which form will the securities be allotted to him?",
+    "question": "Mr. Soham has some shares of PPP Company Ltd. in demateralised form. A Rights Issue is announced and PPP Company gives an option to Mr. Soham to receive the securities in either physical or demat form. If Mr. Soham applies for the rights issue but does not exercise the option of physical or demat form, in which form will the securities be allotted to him?",
     "options": [
-      "A) In Physical Form",
-      "B) In Demateralised form ✓",
-      "C) No allotment will be made",
-      "D) None of the above"
+      "In Physical Form",
+      "In Demateralised form",
+      "No allotment will be made",
+      "None of the above"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nIn case the applicant does not exercise his option, new securities are allotted in the form in which the shareholder held the security as on the record date. In the above question, Mr. Soham held the securities in demat form, so he will receive the new shares in demat form."
@@ -236,12 +236,12 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 17,
-    "question": "Q 17. Once the pledge of securities is initiated by the pledgor, who instructs the DP to confirm the creation of the pledge?",
+    "question": "Once the pledge of securities is initiated by the pledgor, who instructs the DP to confirm the creation of the pledge?",
     "options": [
-      "A) Stock Brokers",
-      "B) Pledgee ✓",
-      "C) Pledgor",
-      "D) SEBI"
+      "Stock Brokers",
+      "Pledgee",
+      "Pledgor",
+      "SEBI"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nThe pledgor initiates the creation of pledge/hypothecation through its DP and the pledgee instructs its DP to confirm the creation of the pledge. The pledge/hypothecation so created can either be closed on repayment of loan or invoked if there is a default."
@@ -251,12 +251,12 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 18,
-    "question": "Q 18. What details should the investor furnish to receive the securities allotted in public issue in demat form?",
+    "question": "What details should the investor furnish to receive the securities allotted in public issue in demat form?",
     "options": [
-      "A) Depository Name",
-      "B) DP-lD",
-      "C) Beneficiary Account Number (BO ID)",
-      "D) All of the above ✓"
+      "Depository Name",
+      "DP-lD",
+      "Beneficiary Account Number (BO ID)",
+      "All of the above"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nTo receive the securities in electronic form, investor must open a demat account through any DP with any depository before making an application. For this purpose, the application form should have provision for investors to furnish their demat account number along with the following information:\nDepository Name\nDP's Name\nDP-lD\nBeneficiary Account Number (BO ID)"
@@ -266,10 +266,10 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 19,
-    "question": "Q 19. Who gives the request for closure in the Unilateral closure of pledge of securities?",
+    "question": "Who gives the request for closure in the Unilateral closure of pledge of securities?",
     "options": [
-      "A) Pledgee (Lender) ✓",
-      "B) Pledgor (Borrower)"
+      "Pledgee (Lender)",
+      "Pledgor (Borrower)"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nUsually its the Pledgor who request the closure of pledge, but the facility for unilateral closure (Unpledge) of Pledge by the Pledgee has also been provided by the depositories.\nIn this case, the pledgee submits an instruction in the prescribed form to its DP to initiate unilateral closure of pledge / hypothecation."
@@ -279,12 +279,12 @@
     "module": "Chapter 2: Introduction to Depository",
     "chapter": "Chapter 2: Introduction to Depository",
     "id": 20,
-    "question": "Q 20. The depository allocates unique identity code / number to the securities issued by an issuer. Such code / number is called ________ .",
+    "question": "The depository allocates unique identity code / number to the securities issued by an issuer. Such code / number is called ________ .",
     "options": [
-      "A) Indian Stock market Institute Number",
-      "B) Indian Stock Identity Number",
-      "C) International Securities Identification Number ✓",
-      "D) International Securities Indian Number"
+      "Indian Stock market Institute Number",
+      "Indian Stock Identity Number",
+      "International Securities Identification Number",
+      "International Securities Indian Number"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nIn the depository system, each security is identified by a number which is known as the International Securities Identification Number (ISIN)."
@@ -294,10 +294,10 @@
     "module": "Chapter 4: Functions of DP-Account opening",
     "chapter": "Chapter 4: Functions of DP-Account opening",
     "id": 21,
-    "question": "Q 21. Verified copies of Telephone bills (not more than three months old) can be given as proof of address for opening a Demat Account.",
+    "question": "Verified copies of Telephone bills (not more than three months old) can be given as proof of address for opening a Demat Account.",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nWhile opening a demat account, utility bills can be given as a 'Proof of address' as under :\nUtility bills like – (Not more than 3 months old– as on date of receipt for documents).\ni. Telephone Bill (only land line) ii. Electricity bill or iii. Gas bill"
@@ -307,10 +307,10 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 22,
-    "question": "Q 22. A DP can offer depository related services only after obtaining a certificate of registration from the Depository.",
+    "question": "A DP can offer depository related services only after obtaining a certificate of registration from the Depository.",
     "options": [
-      "A) True",
-      "B) False ✓"
+      "True",
+      "False"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nDP can offer depository related services only after obtaining a certificate of registration from SEBI."
@@ -320,12 +320,12 @@
     "module": "Chapter 1: Introduction to the Indian Capital Market",
     "chapter": "Chapter 1: Introduction to the Indian Capital Market",
     "id": 23,
-    "question": "Q 23. Securities and Exchange Board of India Act was enacted in the year _______ .",
+    "question": "Securities and Exchange Board of India Act was enacted in the year _______ .",
     "options": [
-      "A) 1982",
-      "B) 1991",
-      "C) 1992 ✓",
-      "D) 1985"
+      "1982",
+      "1991",
+      "1992",
+      "1985"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:"
@@ -335,10 +335,10 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 24,
-    "question": "Q 24. For all public issues in demat form, the company has to enter into an agreement with any one of the depository.",
+    "question": "For all public issues in demat form, the company has to enter into an agreement with any one of the depository.",
     "options": [
-      "A) True",
-      "B) False ✓"
+      "True",
+      "False"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nFor all public issues in demat form, the company has to enter into an agreement with ALL the depositories."
@@ -348,12 +348,12 @@
     "module": "Chapter 4: Functions of DP-Account opening",
     "chapter": "Chapter 4: Functions of DP-Account opening",
     "id": 25,
-    "question": "Q 25. Proof of Identity (POI) for opening a Demat Account can include ______.",
+    "question": "Proof of Identity (POI) for opening a Demat Account can include ______.",
     "options": [
-      "A) Driving license",
-      "B) Identity card issued by Public Sector Undertakings",
-      "C) Identity card issued by Scheduled Commercial Banks",
-      "D) All of the above ✓"
+      "Driving license",
+      "Identity card issued by Public Sector Undertakings",
+      "Identity card issued by Scheduled Commercial Banks",
+      "All of the above"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nProof of Identity can include :\nI. Passport\nII. Voter ID card\nIII. Driving license\nIV. PAN card with photograph\nV. Identity card/document with applicant's photo, issued by\n a) Central/State Government and its Departments,\n b) Statutory/Regulatory Authorities,\n c) Public Sector Undertakings,\n d) Scheduled Commercial Banks,\n e) Public Financial Institutions,\n f) Colleges affiliated to Universities (this can be treated as valid only till the time the applicant is a student),\n g) Professional Bodies such as ICAI, ICWAI, ICSI, Bar Council etc., to their Members; and\n h) Credit cards/Debit cards issued by Banks."
@@ -363,12 +363,12 @@
     "module": "Chapter 8: Functions of DP- Trading and Settlement",
     "chapter": "Chapter 8: Functions of DP- Trading and Settlement",
     "id": 26,
-    "question": "Q 26. The entities that are authorised to pay in and receive the pay out from a Clearing Corporation against the trades done by them or their clients are known as ______________..",
+    "question": "The entities that are authorised to pay in and receive the pay out from a Clearing Corporation against the trades done by them or their clients are known as ______________..",
     "options": [
-      "A) Receiving Members",
-      "B) Professional Members",
-      "C) Clearing Members ✓",
-      "D) None of the above"
+      "Receiving Members",
+      "Professional Members",
+      "Clearing Members",
+      "None of the above"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nAll the members of a stock exchange ie. the Stock Brokers are clearing members.\nAlso Custodians who have been permitted by the stock exchange can act as a clearing member."
@@ -378,12 +378,12 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 27,
-    "question": "Q 27. In case of Pledge, all corporate benefits - cash and non-cash - like dividends, bonus, rights etc., will accrue to the __________.",
+    "question": "In case of Pledge, all corporate benefits - cash and non-cash - like dividends, bonus, rights etc., will accrue to the __________.",
     "options": [
-      "A) pledgor (borrower) ✓",
-      "B) pledge (lender)",
-      "C) DP",
-      "D) Depository"
+      "pledgor (borrower)",
+      "pledge (lender)",
+      "DP",
+      "Depository"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nOwnership of the pledged/hypothecated securities remains with the pledgor (borrower) until the pledge is invoked. Hence, all corporate benefits - cash and non-cash will accrue to the borrower."
@@ -393,10 +393,10 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 28,
-    "question": "Q 28. Can a pledge be created for future date as the execution date? State Yes or No?",
+    "question": "Can a pledge be created for future date as the execution date? State Yes or No?",
     "options": [
-      "A) Yes ✓",
-      "B) No"
+      "Yes",
+      "No"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nPledgor Beneficiary Owner (BO) also has the facility to setup the pledge request even in case of insufficient / nil balance in the Pledgor BO account. The Pledgor BO shall have the facility to set up pledge request with future date as execution date."
@@ -406,10 +406,10 @@
     "module": "Chapter 1: Introduction to the Indian Capital Market",
     "chapter": "Chapter 1: Introduction to the Indian Capital Market",
     "id": 29,
-    "question": "Q 29. A secondary market has no role to play in the development of primary market.",
+    "question": "A secondary market has no role to play in the development of primary market.",
     "options": [
-      "A) True",
-      "B) False ✓"
+      "True",
+      "False"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nAn active secondary market promotes the growth of the primary market and capital formation, since the investors in the primary market are assured of a continuous market where they have an option to liquidate their investments."
@@ -419,10 +419,10 @@
     "module": "Chapter 2: Introduction to Depository",
     "chapter": "Chapter 2: Introduction to Depository",
     "id": 30,
-    "question": "Q 30. ISIN codes are allotted only to equity securities and not to debt securities.",
+    "question": "ISIN codes are allotted only to equity securities and not to debt securities.",
     "options": [
-      "A) True",
-      "B) False ✓"
+      "True",
+      "False"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nAll debt securities which are available for demat are given ISIN code."
@@ -432,10 +432,10 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 31,
-    "question": "Q 31. If a person investing in an IPO gives his Demat A/c number, the DP - ID , DP name and Depository name, can the securities be allotted in demat form ?",
+    "question": "If a person investing in an IPO gives his Demat A/c number, the DP - ID , DP name and Depository name, can the securities be allotted in demat form ?",
     "options": [
-      "A) Yes ✓",
-      "B) No"
+      "Yes",
+      "No"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:"
@@ -445,12 +445,12 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 32,
-    "question": "Q 32. Which type of corporate benefits are facilitated by the depositories in India?\nA) Corporate benefits involving non cash transactions like Bonus, Rights etc\nB) Corporate benefits involving cash like Dividends etc\nC) Both of the above\nD) None of the above\nCorrect answer:\nC) Both of the above ✓",
+    "question": "Which type of corporate benefits are facilitated by the depositories in India?\nA) Corporate benefits involving non cash transactions like Bonus, Rights etc\nB) Corporate benefits involving cash like Dividends etc\nC) Both of the above\nD) None of the above\nCorrect answer:\nC) Both of the above",
     "options": [
-      "A) Corporate benefits involving non cash transactions like Bonus, Rights etc",
-      "B) Corporate benefits involving cash like Dividends etc",
-      "C) Both of the above ✓",
-      "D) None of the above"
+      "Corporate benefits involving non cash transactions like Bonus, Rights etc",
+      "Corporate benefits involving cash like Dividends etc",
+      "Both of the above",
+      "None of the above"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nPresently the depositories in India facilitate the distribution of non-cash corporate benefits only.\nThe Issuer/R&T Agent distributes dividend, interest or other monetary benefits directly to the eligible beneficial owners on the basis of the list provided by the depository."
@@ -460,12 +460,12 @@
     "module": "Chapter 6: Functions of DP- Transmission & Nomination",
     "chapter": "Chapter 6: Functions of DP- Transmission & Nomination",
     "id": 33,
-    "question": "Q 33. The process of transmission through a depository is simple as well as quicker because the successor to the title interacts only with one entity ie. ________ .",
+    "question": "The process of transmission through a depository is simple as well as quicker because the successor to the title interacts only with one entity ie. ________ .",
     "options": [
-      "A) The Clearing Member",
-      "B) The Depository Participant ✓",
-      "C) The Sub Broker",
-      "D) The Depository"
+      "The Clearing Member",
+      "The Depository Participant",
+      "The Sub Broker",
+      "The Depository"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nThe word `transmission’ means devolution (transfer) of title to securities, for example, in case of death of individual, lunacy, bankruptcy, winding-up (in case of corporate entity) etc.\nThe process of transmission through a depository is simplified and investor friendly and the legal heir to the title interacts only with one entity i.e., his Depository Participant."
@@ -475,12 +475,12 @@
     "module": "Chapter 2: Introduction to Depository",
     "chapter": "Chapter 2: Introduction to Depository",
     "id": 34,
-    "question": "Q 34. As per the Eligibility Criteria for a Depository, a Depository company must have a minimum net worth of _________ .",
+    "question": "As per the Eligibility Criteria for a Depository, a Depository company must have a minimum net worth of _________ .",
     "options": [
-      "A) Rs. 50 crore",
-      "B) Rs. 100 crore ✓",
-      "C) Rs. 200 crore",
-      "D) Rs. 500 crore"
+      "Rs. 50 crore",
+      "Rs. 100 crore",
+      "Rs. 200 crore",
+      "Rs. 500 crore"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nA Depository company must have a minimum net worth of Rs. 100 crore."
@@ -490,12 +490,12 @@
     "module": "Chapter 6: Functions of DP- Transmission & Nomination",
     "chapter": "Chapter 6: Functions of DP- Transmission & Nomination",
     "id": 35,
-    "question": "Q 35. Where there is an objection from any member of the HUF, transmission of securities held in the beneficial owner account should be effected only on the basis of ________________ .",
+    "question": "Where there is an objection from any member of the HUF, transmission of securities held in the beneficial owner account should be effected only on the basis of ________________ .",
     "options": [
-      "A) past records of such transmissions",
-      "B) collective view of the other members of HUF",
-      "C) as per the orders of High court",
-      "D) a Decree by a competent Court or the Deed of Partition. ✓"
+      "past records of such transmissions",
+      "collective view of the other members of HUF",
+      "as per the orders of High court",
+      "a Decree by a competent Court or the Deed of Partition."
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nIn the case of transmission of securities held in the name of a Hindu Undivided Family (HUF), if there is any objection from a member of the HUF regarding such transmission:\nThe securities cannot be transmitted solely based on request or consent of other members.\nIt must be supported by legal documentation, such as a Decree by a competent Court or a registered Deed of Partition clearly showing the division of assets.\nThis ensures that the rights of all members are protected and that the transmission is done in a legally valid and equitable manner."
@@ -505,10 +505,10 @@
     "module": "Chapter 13: Investor Services",
     "chapter": "Chapter 13: Investor Services",
     "id": 36,
-    "question": "Q 36. In respect of Basic Service Demat Account (BSDA), if there are no transactions and no security balance in an account, then no further transaction statement needs to be provided. State True or False?",
+    "question": "In respect of Basic Service Demat Account (BSDA), if there are no transactions and no security balance in an account, then no further transaction statement needs to be provided. State True or False?",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nServices offered to Basic Services Demat Account Holders:\nTransaction statements:\na. Transaction statements shall be sent to the BO at the end of each quarter. If there are no transactions in any quarter, no transaction statement may be sent for that quarter.\nb. If there are no transactions and no security balance in an account, then no further transaction statement needs to be provided."
@@ -518,10 +518,10 @@
     "module": "Chapter 1: Introduction to the Indian Capital Market",
     "chapter": "Chapter 1: Introduction to the Indian Capital Market",
     "id": 37,
-    "question": "Q 37. Eligible investor will be required to submit specified form to the Depository Participant at the time of account opening or designating his/her existing demat account for taking the benefits under RGESS. State True or False?",
+    "question": "Eligible investor will be required to submit specified form to the Depository Participant at the time of account opening or designating his/her existing demat account for taking the benefits under RGESS. State True or False?",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:"
@@ -531,12 +531,12 @@
     "module": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "chapter": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "id": 38,
-    "question": "Q 38. In the procedure for transferring Government Securities in SGL Form to Depository account, the Depository Participant fills up which portion of the Request Form ?",
+    "question": "In the procedure for transferring Government Securities in SGL Form to Depository account, the Depository Participant fills up which portion of the Request Form ?",
     "options": [
-      "A) the connecting portion",
-      "B) the agreement portion",
-      "C) the approval portion",
-      "D) the authorisation portion ✓"
+      "the connecting portion",
+      "the agreement portion",
+      "the approval portion",
+      "the authorisation portion"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nThe DP will fill the relevant portion viz., the authorisation portion of the request form."
@@ -546,12 +546,12 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 39,
-    "question": "Q 39. As per the SEBI Regulations, the aggregate value of the securities of the beneficial owners, held in dematerialized form through a stockbroker DP, cannot be more than ____ times the net worth of the stockbroker.",
+    "question": "As per the SEBI Regulations, the aggregate value of the securities of the beneficial owners, held in dematerialized form through a stockbroker DP, cannot be more than ____ times the net worth of the stockbroker.",
     "options": [
-      "A) 10",
-      "B) 50",
-      "C) 100 ✓",
-      "D) 200"
+      "10",
+      "50",
+      "100",
+      "200"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nAs per the SEBI (Depositories & Participants) Regulations, 1996 the aggregate value of the securities of the beneficial owners, held in dematerialized form through a stockbroker DP, cannot be more than 100 times the net worth of the stockbroker.\nWhere the stock broker, however, has a minimum net worth of Rs. 10 crore, the limits on the aggregate value of the portfolio of securities of the beneficial owners held in dematerialized form in a depository through him, shall not be applicable."
@@ -561,10 +561,10 @@
     "module": "Chapter 5: Functions of DP-Account operations",
     "chapter": "Chapter 5: Functions of DP-Account operations",
     "id": 40,
-    "question": "Q 40. By freezing an account for debits only, the client can receive securities in his demat account - State True or False ?",
+    "question": "By freezing an account for debits only, the client can receive securities in his demat account - State True or False ?",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nIn case of Debits Only demat a/c freeze, the client can receive securities but cannot transfer out the securities from his demat account."
@@ -574,12 +574,12 @@
     "module": "Chapter 7: Functions of DP- Dematerialisation",
     "chapter": "Chapter 7: Functions of DP- Dematerialisation",
     "id": 41,
-    "question": "Q 41. The R&T agent has to confirm/reject a Demat request within ____ days.",
+    "question": "The R&T agent has to confirm/reject a Demat request within ____ days.",
     "options": [
-      "A) 10",
-      "B) 15 ✓",
-      "C) 20",
-      "D) 30"
+      "10",
+      "15",
+      "20",
+      "30"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nIn case the R&T Agent rejects any dematerialisation request, it has to electronically intimate the depository regarding such rejection within a period of 15 days.\nAfter intimating such rejection to the depository, the Issuer or its R&T Agent returns the Demat Requisition Form along with the rejection reason and relevant security certificates."
@@ -589,10 +589,10 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 42,
-    "question": "Q 42. When applying for shares in an IPO in demat form, the Client ID needs to be filled up.",
+    "question": "When applying for shares in an IPO in demat form, the Client ID needs to be filled up.",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nThe Client ID is a part of the Demat A/c no and needs to be filled up in the IPO Application form.\nThe shares allotted in the IPO will be directly credited to the Demat A/c."
@@ -602,10 +602,10 @@
     "module": "Chapter 2: Introduction to Depository",
     "chapter": "Chapter 2: Introduction to Depository",
     "id": 43,
-    "question": "Q 43. The Depositories Act, 1996 provides for the establishment of depositories in securities with the objective of ensuring free transferability of securities.",
+    "question": "The Depositories Act, 1996 provides for the establishment of depositories in securities with the objective of ensuring free transferability of securities.",
     "options": [
-      "A) True ✓",
-      "B) False"
+      "True",
+      "False"
     ],
     "answerIndex": 0,
     "explanation": "Explanation:\nThe Depositories Act, 1996 provides for the establishment of depositories in securities with the objective of ensuring free transferability of securities with speed, accuracy and security.\nThis is done by (a) making securities freely transferable subject to certain exceptions; (b) dematerialization of the securities in the depository mode; and (c) providing for maintenance of ownership records in a book entry form."
@@ -615,12 +615,12 @@
     "module": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "chapter": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "id": 44,
-    "question": "Q 44. The price and quantity of commercial papers is decided by _________.",
+    "question": "The price and quantity of commercial papers is decided by _________.",
     "options": [
-      "A) the banks",
-      "B) the stock exchanges",
-      "C) RBI",
-      "D) the buyers and sellers of commercial papers ✓"
+      "the banks",
+      "the stock exchanges",
+      "RBI",
+      "the buyers and sellers of commercial papers"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nThe buyers and sellers of Commercial Papers are usually big Corporates and the pricing etc. will depend on the credit reputation of the company."
@@ -630,12 +630,12 @@
     "module": "Chapter 1: Introduction to the Indian Capital Market",
     "chapter": "Chapter 1: Introduction to the Indian Capital Market",
     "id": 45,
-    "question": "Q 45. Fund raising in the primary markets can be done through _____________ markets.",
+    "question": "Fund raising in the primary markets can be done through _____________ markets.",
     "options": [
-      "A) Indian",
-      "B) International",
-      "C) Both 1 and 2 ✓",
-      "D) None of the above"
+      "Indian",
+      "International",
+      "Both 1 and 2",
+      "None of the above"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nFunds can be raised in the primary market from the domestic market as well as from international markets in the form of ADR's, GDR's etc."
@@ -645,12 +645,12 @@
     "module": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "chapter": "Chapter 10: Special Services- Public Offering/Corporate Actions",
     "id": 46,
-    "question": "Q 46. Every __________ has to provide timely information to the Depository about various corporate actions like book closure, record dates etc.",
+    "question": "Every __________ has to provide timely information to the Depository about various corporate actions like book closure, record dates etc.",
     "options": [
-      "A) Stock Exchange",
-      "B) Depository Participant",
-      "C) Shareholder",
-      "D) Issuer ✓"
+      "Stock Exchange",
+      "Depository Participant",
+      "Shareholder",
+      "Issuer"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nThe Issuer of Securities ie. the Company has to inform the Depository the book closure, record dates, dates for payment of interest or dividend, dates for the annual general meeting, dates of redemption of securities, dates of conversion, dates of exercising warrants and such other information as may be specified by the Executive Committee of the depository from time to time."
@@ -660,12 +660,12 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 47,
-    "question": "Q 47. The _______ gives the Pledge closure request to the DP.",
+    "question": "The _______ gives the Pledge closure request to the DP.",
     "options": [
-      "A) Depository",
-      "B) Depository Participant",
-      "C) Pledgee (lender)",
-      "D) Pledgor (borrower) ✓"
+      "Depository",
+      "Depository Participant",
+      "Pledgee (lender)",
+      "Pledgor (borrower)"
     ],
     "answerIndex": 3,
     "explanation": "Explanation:\nSteps for Pledge closure procedure :\n1.Pledgor repays the loan to Pledgee\n2. Pledgor gives a Pledge Closure request to his DP\n3. Pledgor's DP forwards the request to Depository\n4. The Depository forwards this request to Pledgee's DP\n5. The Pledgee's DP confirms with the Pledgee with a Pledgee Closure Confirmation Form\n6. This is intimated to Depository and the Pledgor's DP\n7. Pledgor's DP intimates about this to the Pledgor."
@@ -675,12 +675,12 @@
     "module": "Chapter 3: Depository and its business partners",
     "chapter": "Chapter 3: Depository and its business partners",
     "id": 48,
-    "question": "Q 48. Who has the authority to cancel the registration of a Depository Participant ?",
+    "question": "Who has the authority to cancel the registration of a Depository Participant ?",
     "options": [
-      "A) NSDL or CDSL",
-      "B) The Stock Exchange",
-      "C) SEBI ✓",
-      "D) Finance Ministry under the instructions of RBI."
+      "NSDL or CDSL",
+      "The Stock Exchange",
+      "SEBI",
+      "Finance Ministry under the instructions of RBI."
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nThe certificate of registration granted to a DP may be cancelled by SEBI if it is found that:\nit is guilty of fraud, or has been convicted of an offence involving moral turpitude or\nit has been guilty of repeated defaults specified for suspension of the registration."
@@ -690,12 +690,12 @@
     "module": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "chapter": "Chapter 11: Special Services- Debt Instruments & Government Securities",
     "id": 49,
-    "question": "Q 49. What is an SGL-1 account ?",
+    "question": "What is an SGL-1 account ?",
     "options": [
-      "A) Its a summary of all demat accounts of one family",
-      "B) Its an account opened with RBI directly. ✓",
-      "C) Its a Special Government Ledger Account",
-      "D) There is no such thing as SGL-1 account"
+      "Its a summary of all demat accounts of one family",
+      "Its an account opened with RBI directly.",
+      "Its a Special Government Ledger Account",
+      "There is no such thing as SGL-1 account"
     ],
     "answerIndex": 1,
     "explanation": "Explanation:\nAn investor in government securities has the option to have securities issued either in physical form or in book-entry form (commonly known as SGL form). There are two types of SGL facilities - SGL-1 and SGL-2.\nIn the SGL-1 facility, the account is opened with the RBI directly. Only entities, which fulfill all the eligibility criteria prescribed by RBI, are permitted to open SGL-1 account."
@@ -705,12 +705,12 @@
     "module": "Chapter 9: Special Services- Pledge and Hypothecation",
     "chapter": "Chapter 9: Special Services- Pledge and Hypothecation",
     "id": 50,
-    "question": "Q 50. ____________verifies and ensures that the securities to be pledged exists in the pledgor’s accounts.",
+    "question": "____________verifies and ensures that the securities to be pledged exists in the pledgor’s accounts.",
     "options": [
-      "A) CDSL or NSDL",
-      "B) Depositary",
-      "C) Depository Participant ✓",
-      "D) The Pledgee"
+      "CDSL or NSDL",
+      "Depositary",
+      "Depository Participant",
+      "The Pledgee"
     ],
     "answerIndex": 2,
     "explanation": "Explanation:\nA Pledgor is a person who needs a loan against the securities in his Demat account.\nThe pledgor submits the request form containing all details like the details of securities to be pledged, The DP verifies the form for completeness and validity and ensures that the securities to be pledged exist in the pledgor's account."
