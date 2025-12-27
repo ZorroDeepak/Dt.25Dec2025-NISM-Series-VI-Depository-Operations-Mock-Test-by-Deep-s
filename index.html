@@ -1,357 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>NISM Series VI : Depository Operations Mock Test by Deep's</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>NISM Series VI : Depository Operations Mock Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 
   <style>
     body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background-color: #f5f5f5;
     }
-
-    .app-header {
-      background-color: #00695c;
-      color: #ffffff;
-      padding: 14px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 1.1rem;
-    }
-
-    .app-header .title {
-      font-weight: 600;
-    }
-
-    .app-header .time {
-      font-size: 0.95rem;
-    }
-
-    .container {
-      max-width: 1200px;
+    .quiz-wrapper {
+      max-width: 1100px;
       margin: 20px auto;
-      padding: 0 16px 24px;
-    }
-
-    .controls-card,
-    .quiz-card {
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
-      padding: 16px 20px;
-      margin-bottom: 16px;
-    }
-
-    .controls-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .controls-row label {
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-right: 4px;
-    }
-
-    select {
-      padding: 6px 8px;
+      background: #fff;
+      padding: 20px;
       border-radius: 4px;
-      border: 1px solid #ccc;
-      min-width: 160px;
-      font-size: 0.9rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-
-    button {
-      border: none;
-      border-radius: 4px;
-      padding: 8px 14px;
-      font-size: 0.9rem;
-      cursor: pointer;
-    }
-
-    .startBtn {
-      background-color: #00695c;
-      color: #fff;
-      margin-left: 8px;
-    }
-
-    .startBtn:hover {
-      background-color: #005248;
-    }
-
-    .quiz-card {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .question-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    .question-text {
-      font-size: 1rem;
-      font-weight: 500;
-      margin: 4px 0 6px;
-    }
-
-    .options .option {
-      margin: 4px 0;
-      padding: 6px 8px;
-      border-radius: 4px;
-      transition: background-color 0.15s;
-    }
-
-    .options .option:hover {
-      background-color: #f1f1f1;
-    }
-
-    .options input[type="radio"] {
-      margin-right: 6px;
-    }
-
-    .feedback.correct {
-      margin-top: 8px;
-      padding: 8px 10px;
-      border-radius: 4px;
-      background-color: #e8f5e9;
-      color: #256029;
-      font-weight: 600;
-      font-size: 0.95rem;
-    }
-
-    .feedback.incorrect {
-      margin-top: 8px;
-      padding: 8px 10px;
-      border-radius: 4px;
-      background-color: #ffebee;
-      color: #b71c1c;
-      font-weight: 600;
-      font-size: 0.95rem;
-    }
-
-    .explanation {
-      background-color: #f5f5f5;
-      border-radius: 4px;
-      padding: 8px 10px;
-      margin-top: 8px;
-      font-size: 0.95rem;
-      font-weight: 500;
-    }
-
-    /* Nav buttons row */
-    #navButtons {
-      margin-top: 8px;
-      display: flex;
-      gap: 10px;
-      justify-content: flex-start;
-    }
-
-    #navButtons button {
-      min-width: 90px;
-    }
-
-    #prevBtn {
-      background-color: #e0e0e0;
-    }
-
-    #skipBtn {
-      background-color: #ffc107;
-    }
-
-    #nextBtn {
-      background-color: #00695c;
-      color: #fff;
-    }
-
-    #nextBtn:hover {
-      background-color: #005248;
-    }
-
-    /* Question grid at bottom */
-    #questionGridContainer {
-      margin-top: 12px;
-    }
-
     .question-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
+      margin-top: 10px;
     }
-
-    .q-box {
-      width: 32px;
-      height: 32px;
+    .question-grid button {
+      width: 40px;
+      height: 40px;
+      font-size: 14px;
+    }
+    .q-notVisited {
+      background-color: #e0e0e0;
+      color: #000;
+    }
+    .q-current {
+      background-color: #28a745;
+      color: #fff;
+    }
+    .q-answered {
+      background-color: #0d6efd;
+      color: #fff;
+    }
+    .q-skipped {
+      background-color: #ffc107;
+      color: #000;
+    }
+    .option-item {
+      margin-bottom: 6px;
+    }
+    .explanation-box {
+      margin-top: 15px;
+      padding: 10px;
       border-radius: 4px;
-      border: 1px solid #ccc;
-      background: #f4f4f4;
-      font-size: 0.8rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
     }
-
-    .q-box.current {
-      background: #00695c;
-      color: #fff;
+    .explanation-correct {
+      background-color: #d4edda;
+      border: 1px solid #c3e6cb;
     }
-
-    .q-box.answered {
-      background: #4caf50;
-      color: #fff;
-    }
-
-    .q-box.skipped {
-      background: #ffeb3b;
-    }
-
-    .legend {
-      margin-top: 10px;
-      font-size: 0.85rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .legend-item {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .current-dot,
-    .answered-dot,
-    .notvisited-dot,
-    .skipped-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      display: inline-block;
-    }
-
-    .current-dot {
-      background: #00695c;
-    }
-
-    .answered-dot {
-      background: #4caf50;
-    }
-
-    .notvisited-dot {
-      background: #ccc;
-    }
-
-    .skipped-dot {
-      background: #ffeb3b;
-    }
-
-    .result {
-      text-align: center;
-      padding: 20px 10px;
-    }
-
-    .result h2 {
-      margin-top: 0;
-    }
-
-    .result button {
-      background-color: #00695c;
-      color: #fff;
-      margin-top: 10px;
-    }
-
-    @media (max-width: 768px) {
-      .controls-row {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      #navButtons {
-        justify-content: space-between;
-      }
-    }
-
-    /* Watermark */
-    .watermark {
-      position: fixed;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      pointer-events: none;
-      font-size: 3rem;
-      color: rgba(0, 0, 0, 0.05);
-      z-index: 0;
-      text-align: center;
-      white-space: pre-line;
-    }
-
-    .main-with-watermark {
-      position: relative;
-      z-index: 1;
+    .explanation-wrong {
+      background-color: #f8d7da;
+      border: 1px solid #f5c6cb;
     }
   </style>
 </head>
 
 <body>
-  <div class="watermark">
-    NISM Series VI : Depository Operations
-    Mock Test by Deep's
-  </div>
+  <div class="quiz-wrapper">
+    <h4 class="mb-3">
+      NISM Series VI : Depository Operations Mock Test by Deep's
+    </h4>
 
-  <header class="app-header">
-    <div class="title">NISM Series VI : Depository Operations Mock Test by Deep's</div>
-    <div class="time">Time: <span id="timeLabel">--:--</span></div>
-  </header>
-
-  <main class="container main-with-watermark">
-    <!-- Filter selection bar -->
-    <section class="controls-card">
-      <div class="controls-row">
-        <label for="filterType">Mode:</label>
-        <select id="filterType">
+    <!-- Top controls -->
+    <div class="row g-2 mb-3">
+      <div class="col-md-3">
+        <label class="form-label">Mode</label>
+        <select id="filterType" class="form-select">
           <option value="questionSet">By Question Set</option>
           <option value="module">By Module</option>
           <option value="chapter">By Chapter</option>
           <option value="all">All Questions</option>
         </select>
-
-        <label for="questionSetSelect">Question set:</label>
-        <select id="questionSetSelect"></select>
-
-        <label for="moduleSelect">Module:</label>
-        <select id="moduleSelect"></select>
-
-        <label for="chapterSelect">Chapter:</label>
-        <select id="chapterSelect"></select>
-
-        <button id="startBtn" class="startBtn">Start 50 Q Test</button>
-      </div>
-    </section>
-
-    <!-- Quiz area -->
-    <section class="quiz-card">
-      <div id="quizContainer">
-        <!-- Question + options + explanation will be rendered here -->
       </div>
 
-      <!-- Navigation buttons row -->
-      <div id="navButtons"></div>
+      <div class="col-md-3">
+        <label class="form-label">Question set</label>
+        <select id="questionSetSelect" class="form-select">
+          <!-- Filled by JS -->
+        </select>
+      </div>
 
-      <!-- Question grid and legend -->
-      <div id="questionGridContainer"></div>
-    </section>
-  </main>
+      <div class="col-md-3">
+        <label class="form-label">Module</label>
+        <select id="moduleSelect" class="form-select" disabled>
+          <!-- Filled by JS -->
+        </select>
+      </div>
+
+      <div class="col-md-3">
+        <label class="form-label">Chapter</label>
+        <select id="chapterSelect" class="form-select" disabled>
+          <!-- Filled by JS -->
+        </select>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <button id="startBtn" class="btn btn-primary">
+        Start 50 Q Test
+      </button>
+      <div>
+        Time: <span id="timeLabel">00:00</span>
+      </div>
+    </div>
+
+    <!-- Main question area -->
+    <div id="quizContainer">
+      <!-- Filled by JS -->
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="d-flex gap-2 mt-3">
+      <button id="prevBtn" class="btn btn-secondary" disabled>
+        Previous
+      </button>
+
+      <button id="skipBtn" class="btn btn-warning" disabled>
+        Skip
+      </button>
+
+      <button id="nextBtn" class="btn btn-success" disabled>
+        Next
+      </button>
+
+      <!-- NEW Finish button -->
+      <button id="finishBtn" class="btn btn-danger" disabled>
+        Finish
+      </button>
+    </div>
+
+    <!-- Bottom question grid -->
+    <div class="mt-3">
+      <div class="mb-1">
+        <span class="badge bg-secondary">Legend:</span>
+        <span class="badge bg-success">Current</span>
+        <span class="badge bg-primary">Answered</span>
+        <span class="badge bg-warning text-dark">Skipped</span>
+        <span class="badge bg-light text-dark">Not visited</span>
+      </div>
+      <div id="questionGrid" class="question-grid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
